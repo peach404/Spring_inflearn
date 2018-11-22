@@ -41,6 +41,17 @@ http://mangkyu.tistory.com/18 참고!
 
 이렇게 나눠져 있는 이유는 서블릿 컨테이너는 달라질 수 있는데 서블릿은 그렇지 않기 때문이다.
 
+## 내장 웹서버 HPPTS 설정하기
+https://opentutorials.org/course/228/4894 -> 생활코딩 HTTPS SSL 자세한 개념 
+SSL을 사용하려면 키스토어를 만들어야한다.
+ 
+ 
+## 독립적으로 jar파일만 있어도 실행가능
+jar 안에 의존성 다 들어있다
+org.springframework.boot.loader.jar.JarFile에서 내장jar를 읽고 
+org.springframework.boot.loader.Launcher에서 실행한다.
+
+
 
 
 
